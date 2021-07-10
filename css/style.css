@@ -1,0 +1,142 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #E6E6E6;
+}
+main{
+    background-color: white;
+    padding-bottom: 1%;
+    box-shadow: 0 0 40px rgba(92, 91, 91, 0.178);
+}
+h2{
+    font-weight: 900;
+}
+p,li,span{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    color: #000000b6;
+}
+main{
+    width: 60%;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 6% 0 3%;
+    background-color: rgba(167, 223, 245, 0.137);
+}
+.halfWidth{
+    margin: 0 12%;
+}
+.halfWidth h1{
+    font-size: 60px;
+    font-weight: 400;
+}
+#headerTitleBreak{
+    display: block;
+    font-size: 56px;
+    font-weight: 900;
+}
+#headerAddress{
+    margin-top: 1%;
+}
+#headerAddress span{
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: right;
+    line-height: 30px;
+}
+#headerAddress span:after{
+    font-family: "FontAwesome";
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 10px;
+    color: #77448B;
+    
+}
+#house:after{
+    content: "\e065";
+}
+#mobile:after{
+    content: "\f879";
+}
+#email:after{
+    content: "\f0e0";
+}
+#linkedin:after{
+    content: "\f08c";
+}
+.cvBody{
+    width: 80%;
+    margin: 3% auto;
+}
+hr{
+    width: 95%;
+}
+.bodyDescription{
+    width: 85%;
+    margin-left: 5.5%;
+}
+.psudoObject{
+    margin: 5px 0;
+}
+.psudoObject:before{
+    font-family: "FontAwesome";
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    margin-right: 1%;
+    color: white;
+    background-color: #77448B;
+    border-radius: 100%;
+ 
+}
+#objective:before{
+    content: "\f039";
+    padding: 10px 12px;
+
+}
+#education:before{
+    content: "\f19d";
+    padding: 11px 9.5px;
+
+}
+#skills:before{
+    content: "\f7d9";
+    padding: 10.5px 11px;
+
+}
+#activities:before{
+    content: "\f0ae";
+    padding: 10.5px 11px;
+
+}
+.specialWord{
+    font-weight: 900;
+    color: #77448B;
+}
+.bodyEduLife{
+    margin-bottom: 2%;
+}
+.bodyList{
+    list-style: none;
+}
+.bodyList li:before{
+    font-family: "FontAwesome";
+    display: inline-block;
+    content: "\2022";
+    font-size: 25px;
+    vertical-align: -2px;
+    color: #77448B;
+    margin-right: 10px;
+}
