@@ -8,6 +8,7 @@
 body{
     font-family: 'Nunito Sans', sans-serif;
     background-color: #E6E6E6;
+    color: rgba(0, 0, 0, 0.788);
 }
 main{
     background-color: white;
@@ -43,6 +44,7 @@ header{
 }
 #headerTitleBreak{
     display: block;
+    color: black;
     font-size: 56px;
     font-weight: 900;
 }
