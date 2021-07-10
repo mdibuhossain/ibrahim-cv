@@ -18,6 +18,10 @@ main{
 h2{
     font-weight: 900;
 }
+a{
+    text-decoration: none;
+    color: #000000b6;
+}
 p,li,span{
     font-size: 18px;
     font-weight: 500;
