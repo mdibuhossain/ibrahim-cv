@@ -66,7 +66,11 @@ header{
 #headerAddress span:after{
     font-family: "FontAwesome";
     display: inline-block;
+    text-align: center;
+    width: 20px;
+    height: 20px;
     font-size: 20px;
+    line-height: 20px;
     margin-left: 10px;
     color: #77448B;
     
@@ -100,32 +104,33 @@ hr{
 .psudoObject:before{
     font-family: "FontAwesome";
     display: inline-block;
+    text-align: center;
     vertical-align: middle;
+    width: 18px;
+    height: 18px;
     font-size: 18px;
+    line-height: 18px;
     margin-right: 1%;
-    color: white;
+    padding: 12px;
+    color:white;
     background-color: #77448B;
-    border-radius: 100%;
+    border-radius: 50%;
  
 }
 #objective:before{
     content: "\f039";
-    padding: 10px 12px;
 
 }
 #education:before{
     content: "\f19d";
-    padding: 11px 9.5px;
 
 }
 #skills:before{
     content: "\f7d9";
-    padding: 10.5px 11px;
 
 }
 #activities:before{
     content: "\f0ae";
-    padding: 10.5px 11px;
 
 }
 .specialWord{
