@@ -201,7 +201,7 @@ hr{
         font-size: 56px;
     }
 }
-@media (min-width: 320px){
+@media (min-width: 300px) and (max-width: 500px){
     h2{
         font-size: 14px;
     }
