@@ -99,10 +99,10 @@ hr{
     width: 85%;
     margin-left: 5.5%;
 }
-.psudoObject{
+.pseudoObject{
     margin: 5px 0;
 }
-.psudoObject:before{
+.pseudoObject:before{
     font-family: "FontAwesome";
     display: inline-block;
     text-align: center;
@@ -116,7 +116,6 @@ hr{
     color:white;
     background-color: #77448B;
     border-radius: 50%;
- 
 }
 #objective:before{
     content: "\f039";
@@ -200,5 +199,57 @@ hr{
     }
     #headerTitleBreak{
         font-size: 56px;
+    }
+}
+@media (min-width: 320px){
+    h2{
+        font-size: 14px;
+    }
+    h3{
+        font-size: 12px;
+
+    }
+    p,li,span{
+        font-size: 10px;
+    }
+    main{
+        width: 100%;
+    }
+    header{
+        justify-content: center;
+        align-items: center;
+    }
+    .halfWidth{
+        width: 40%;
+    }
+    #headerAddress span{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    #headerAddress span:after{
+        width: 12px;
+        height: 12px;
+        font-size: 12px;
+        line-height: 12px;
+        margin-left: 5px;
+        
+    }
+    .pseudoObject:before{
+        width: 10px;
+        height: 10px;
+        font-size: 10px;
+        line-height: 10px;
+        margin-right: 1%;
+        padding: 7px;
+    }
+    .bodyList li:before{
+        font-size: 15px;
+    }
+    .halfWidth h1{
+        font-size: 25px;
+        font-weight: 400;
+    }
+    #headerTitleBreak{
+        font-size: 23px;
     }
 }
